@@ -55,8 +55,7 @@ class vCard {
                             $this->vCard .= "ROLE:{$value}" . "\r\n";
                         break;
                     case 'BDAY':
-                        // Role or occupation
-                        // The role, occupation, or business category of the vCard object within an organization (e.g. Executive)
+                        // Bday
                         if (!empty($value) && $value != '0000-00-00')
                             $this->vCard .= "BDAY:{$value}" . "\r\n";
                         break;
